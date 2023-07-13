@@ -1,0 +1,18 @@
+https://khaivinh3005.github.io/RestaurantHomePage/?fbclid=IwAR0i3w5rmhZjtgDCmbhiNNJmF1Up9R5vfvt0-m-ymP24QOvmVI-tIiry1CM#blog
+
+
+knowledge : 
+background-attachment :fixed  won't scroll with the page 
+
+
+{
+ "asType": "LA"
+ "policyNumber": "21110199",
+ "clientCode": "50156354"
+}
+
+{
+    "asType": "LA",
+    "clientNumber": "50156354",
+    "policyNumber": "21122404"
+}

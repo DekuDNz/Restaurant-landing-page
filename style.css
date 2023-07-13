@@ -1,0 +1,1010 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Pacifico", cursive;
+  font-family: "Mulish", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  height: 470px;
+  background-image: linear-gradient(to right, #ff6600, hsla(30, 100%, 1%, 0.2)), url("https://khaivinh3005.github.io/RestaurantHomePage/img/banner1.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+header .container {
+  width: 80%;
+  margin: 0 auto;
+}
+header .container nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+header .container nav .nav-A a {
+  font-size: 2.1em !important;
+  font-weight: 700;
+  color: #fff !important;
+  text-decoration: none;
+  font-family: "Pacifico", cursive;
+}
+header .container nav .nav-B {
+  display: flex;
+}
+header .container nav .nav-B form {
+  position: relative;
+  margin-right: 20px;
+}
+header .container nav .nav-B form .input-search-B {
+  padding: 10px 50px 10px 20px;
+  height: 45px;
+  font-size: 1rem;
+  font-weight: 400;
+  border: none;
+  color: #495057;
+  border-radius: 0.25rem;
+  background: #232220;
+  outline: none;
+}
+header .container nav .nav-B form .fa-search {
+  position: absolute;
+  right: 10%;
+  top: 26%;
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+}
+header .container nav .nav-B .btn-switch {
+  margin-right: 20px;
+}
+header .container nav .nav-B .btn-switch .fa-sun {
+  font-size: 20px;
+  color: white;
+  padding-top: 10px;
+}
+header .container nav .nav-B .btn-hamburger {
+  background: transparent;
+  border: none;
+  color: white;
+}
+header .container nav .nav-B .btn-hamburger .fa-align-justify {
+  font-size: 30px;
+}
+header .container nav .nav-B .fade .modal-dialog .modal-content {
+  background: transparent !important;
+  border: none;
+  background-color: rgba(0, 0, 51, 0.4);
+}
+header .container nav .nav-B .fade .modal-dialog .modal-content .modal-header {
+  border-bottom: none;
+}
+header .container nav .nav-B .fade .modal-dialog .modal-content .modal-header .close {
+  position: absolute;
+  left: 500px;
+}
+header .container nav .nav-B .fade .modal-dialog .modal-content .modal-header .close span {
+  display: block;
+  padding: 10px;
+  background-color: #ff6600;
+  color: white;
+  border-radius: 10px;
+}
+header .container nav .nav-B .fade .modal-dialog .modal-content .modal-body ul li {
+  color: white;
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+header .container .success-text-father {
+  width: 40%;
+  padding-top: 150px;
+}
+header .container .success-text-father .success-text-child {
+  font-family: "Mulish", sans-serif;
+}
+header .container .success-text-father .success-text-child h5 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 5vh;
+  color: white;
+  line-height: 1.2;
+}
+header .container .success-text-father .success-text-child p {
+  margin: 20px 0;
+  font-size: 19px;
+  color: #f8f9fa !important;
+}
+header .container .success-text-father .success-text-child span {
+  display: block;
+  width: 50%;
+  text-align: center;
+  margin-top: 30px;
+  padding: 15px 20px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+header .container .success-text-father .success-text-child span a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}
+header .container .success-text-father .success-text-child span a .fa-angle-right {
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+header .container .success-text-father .success-text-child span:hover {
+  background-color: orangered;
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 970px) {
+  html {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  header .container .success-text-father {
+    width: 80%;
+    padding-top: 20px;
+  }
+  header .container nav .nav-B form .input-search-B {
+    display: none;
+  }
+  header .container .success-text-father .success-text-child span {
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  header .container .success-text-father .success-text-child h5 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 5vh;
+    color: white;
+    line-height: 1.2;
+  }
+  header .container .success-text-father .success-text-child p {
+    margin: 20px 0;
+    font-size: 15px;
+    color: #f8f9fa !important;
+  }
+}
+.about-us {
+  background-color: #282828 !important;
+}
+.about-us .container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+.about-us .container .about-us-A {
+  width: 50%;
+  padding: 0 80px;
+}
+.about-us .container .about-us-A h6 {
+  color: #ff6600;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  display: block;
+  font-family: "Pacifico", cursive;
+}
+.about-us .container .about-us-A h3 {
+  margin-top: 20px;
+  color: white;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 550;
+}
+.about-us .container .about-us-B {
+  width: 50%;
+  padding-left: 20px;
+}
+.about-us .container .about-us-B p {
+  font-size: 18px;
+  line-height: 28px;
+  color: white;
+}
+.about-us .container .about-us-B .p-2 {
+  margin-top: 10px;
+}
+
+.best-food .container-box .best-food-B .best-food-B-2 .best-food-B-2-child .fa:hover {
+  color: blue;
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {
+  .about-us .container {
+    flex-direction: column;
+    width: 100%;
+    margin-right: 15%;
+  }
+  .about-us .container .about-us-A {
+    width: 100%;
+    padding: 0px;
+  }
+  .about-us .container .about-us-B {
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 20px;
+  }
+  .about-us .container .about-us-B .p-2 {
+    padding-left: 0px !important;
+  }
+}
+.best-food {
+  background-color: #ff6600;
+}
+.best-food .container-box {
+  display: flex;
+}
+.best-food .container-box .best-food-A {
+  width: 50%;
+  height: 650px;
+  background-image: url("https://khaivinh3005.github.io/RestaurantHomePage/img/banner3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.best-food .container-box .best-food-B {
+  width: 50%;
+  padding: 60px 30px 0px;
+}
+.best-food .container-box .best-food-B .best-food-B-1 h4 {
+  font-size: 20px;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-family: "Pacifico", cursive;
+}
+.best-food .container-box .best-food-B .best-food-B-1 h2 {
+  font-size: 38px;
+  font-weight: 600;
+  color: white;
+}
+.best-food .container-box .best-food-B .best-food-B-1 p {
+  color: #ffdfc9;
+  padding: 10px 0;
+  font-size: 18px;
+}
+.best-food .container-box .best-food-B .best-food-B-2 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+.best-food .container-box .best-food-B .best-food-B-2 .best-food-B-2-child {
+  margin-right: 10px;
+}
+.best-food .container-box .best-food-B .best-food-B-2 .best-food-B-2-child .fa {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  text-align: center;
+  line-height: 70px;
+  font-size: 22px;
+  border-radius: 5px;
+  color: #ff6600;
+}
+.best-food .container-box .best-food-B .best-food-B-2 .best-food-B-2-child h5 {
+  font-size: 22px;
+  padding-top: 25px;
+  color: #232121;
+  font-weight: 700;
+}
+.best-food .container-box .best-food-B .best-food-B-2 .best-food-B-2-child p {
+  color: #ffdfc9;
+  padding: 10px 0;
+  font-size: 18px;
+}
+
+.best-food .container-box .best-food-A::after {
+  content: "";
+  position: absolute;
+  background: rgba(16, 15, 19, 0.4588235294);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.footer .container .footer-B ul li:hover {
+  color: red;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .best-food .container-box {
+    flex-direction: column;
+  }
+  .best-food .container-box .best-food-A,
+  .best-food .container-box .best-food-B {
+    width: 100%;
+  }
+}
+.category {
+  background-color: #282828;
+}
+.category .container .category-text {
+  padding-top: 50px;
+  text-align: center;
+}
+.category .container .category-text h3 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #ff6600;
+  font-family: "Pacifico", cursive;
+}
+.category .container .category-text h1 {
+  font-size: 38px;
+  line-height: 40px;
+  color: #fff;
+  font-weight: 600;
+}
+.category .container .category-box {
+  padding: 40px 150px;
+  gap: 40px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.category .container .category-box .category-card {
+  background-image: url("https://khaivinh3005.github.io/RestaurantHomePage/img/g1.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  height: 350px;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.category .container .category-box .category-card .category-card-text {
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+}
+.category .container .category-box .category-card .category-card-text h5 {
+  font-size: 22px;
+  line-height: 30px;
+  color: #fff;
+  font-weight: 700;
+}
+.category .container .category-box .category-card .category-card-text p {
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffc600;
+  font-weight: 600;
+  opacity: 0.9;
+}
+.category .container .category-box .card-2 {
+  background-image: url("https://khaivinh3005.github.io/RestaurantHomePage/img/g2.jpeg");
+}
+.category .container .category-box .card-3 {
+  background-image: url("https://khaivinh3005.github.io/RestaurantHomePage/img/g3.jpeg");
+}
+.category .container .category-box .card-4 {
+  background-image: url("https://khaivinh3005.github.io/RestaurantHomePage/img/g4.jpeg");
+}
+.category .container .category-box .card-5 {
+  background-image: url("https://khaivinh3005.github.io/RestaurantHomePage/img/g5.jpeg");
+}
+.category .container .category-box .card-6 {
+  background-image: url("https://khaivinh3005.github.io/RestaurantHomePage/img/g6.jpeg");
+}
+
+.category .container .category-box .category-card::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.category .container .category-box .category-card:hover::before {
+  background-color: gray;
+  opacity: 0.2;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 990px) {
+  .category .container .category-box {
+    grid-template-columns: auto auto;
+    padding: 40px;
+  }
+}
+.soup {
+  padding: 100px 0;
+  background-color: #232220;
+}
+.soup .container {
+  padding: 50px 100px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+.soup .container .soup-card {
+  padding: 40px 40px;
+  height: 250px;
+  border: 1px solid rgb(222, 226, 230);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.04);
+}
+.soup .container .soup-card .soup-card-A {
+  display: flex;
+  align-items: center;
+}
+.soup .container .soup-card .soup-card-A .soup-card-A-icon {
+  color: #ff6600;
+  width: 70px;
+  height: 70px;
+  text-align: center !important;
+  font-size: 25px;
+  line-height: 70px;
+  border-radius: 6px;
+  margin-right: 30px;
+  background-color: #282828 !important;
+  background-color: rgba(253, 251, 251, 0.959);
+}
+.soup .container .soup-card .soup-card-A .soup-card-A-text {
+  color: #c2d0da !important;
+  font-family: "Quicksand", sans-serif;
+}
+.soup .container .soup-card .soup-card-A .soup-card-A-text p {
+  line-height: 28px;
+  font-size: 18px;
+  margin: 4px 0;
+}
+.soup .container .soup-card .soup-card-A .soup-card-A-text h4 {
+  font-size: 1.5rem;
+}
+.soup .container .soup-card .soup-card-A .soup-card-A-text h4 a {
+  color: white;
+  text-decoration: none;
+}
+.soup .container .soup-card .soup-card-B {
+  margin-top: 20px;
+  color: #c2d0da !important;
+  font-family: "Quicksand", sans-serif;
+}
+
+@media screen and (max-width: 990px) {
+  .soup .container {
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (max-width: 750px) {
+  .soup .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+}
+.delicious {
+  background-image: linear-gradient(0, rgba(16, 15, 19, 0.659), rgba(17, 15, 19, 0.659)), url("https://khaivinh3005.github.io/RestaurantHomePage/img/banner2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 480px;
+  text-align: center;
+}
+.delicious .container {
+  padding-top: 100px;
+}
+.delicious .container h1 {
+  font-size: 40px;
+  color: white;
+  padding: 30px 0;
+  font-weight: 600;
+}
+.delicious .container .btn-left {
+  font-size: 18px;
+  width: 200px;
+  height: 58px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+  margin: 0 10px;
+  background: transparent;
+  border: 3px solid white;
+}
+.delicious .container .btn-right {
+  font-size: 18px;
+  width: 200px;
+  height: 58px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+  margin: 0 10px;
+  background: #ff6600;
+  border: none;
+}
+
+.delicious .container .btn-left:hover {
+  background-color: orange;
+  color: black;
+}
+
+.number .container {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+.number .container .number-father {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -70px;
+  gap: 20px;
+}
+.number .container .number-father .number-child-card {
+  background-color: #232220;
+  border: none;
+  border-radius: 5px;
+  padding-top: 10px;
+  transition: all ease-in-out 0.5s;
+}
+.number .container .number-father .number-child-card .fa {
+  height: 68px;
+  width: 68px;
+  font-size: 26px;
+  background-color: #ff6600;
+  border-radius: 50%;
+  line-height: 68px;
+  margin: 20px 0;
+  color: white;
+}
+.number .container .number-father .number-child-card .number {
+  color: white;
+  font-weight: 800;
+  font-size: 2.6em;
+  margin-bottom: 20px;
+}
+.number .container .number-father .number-child-card .text {
+  padding-bottom: 10px;
+  color: white;
+  font-size: 17px;
+}
+
+.number .container .number-father .number-child-card:hover {
+  transform: translateY(-20px);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 950px) {
+  .number .container .number-father {
+    top: 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  .number .container .number-father {
+    grid-template-columns: auto auto;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+.video-link {
+  background-color: black;
+}
+.video-link .container {
+  padding: 300px 0;
+}
+.video-link .container .video-background {
+  background: url("https://khaivinh3005.github.io/RestaurantHomePage/img/banner3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  height: 500px;
+  position: relative;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pulse {
+  height: 100px;
+  width: 100px;
+  background: white;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  transition: all linear 0.4s;
+  color: #ffffff;
+}
+.pulse .fa-play {
+  color: orangered;
+  font-size: 30px;
+  position: absolute;
+  z-index: 10000;
+}
+
+.pulse::before,
+.pulse::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  z-index: 100;
+  opacity: 0.7;
+}
+
+.pulse::before {
+  animation: pulse 2s ease-out infinite;
+}
+
+.pulse::after {
+  animation: pulse 2s 1s ease-out infinite;
+}
+
+@keyframes pulse {
+  100% {
+    transform: scale(1.9);
+    opacity: 0;
+  }
+}
+.video-link .container .video-background .pulse:hover {
+  background-color: orangered;
+  transform: scale(1.1);
+}
+
+.video-link .container .video-background .pulse:hover .fa-play {
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .video-link {
+    padding-top: 300px;
+  }
+}
+.blog {
+  background-color: #282828 !important;
+  padding: 200px 0 100px 0;
+}
+.blog .container .blog-A {
+  text-align: center;
+}
+.blog .container .blog-A h6 {
+  color: #ff6600;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  display: block;
+  font-family: "Pacifico", cursive;
+}
+.blog .container .blog-A h3 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 550;
+  color: white;
+}
+.blog .container .blog-B {
+  gap: 40px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.blog .container .blog-B .blog-B-card .blog-B-card-1 {
+  background-image: url("https://khaivinh3005.github.io/RestaurantHomePage/img/banner1.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 250px;
+  position: relative;
+  border-radius: 5px;
+}
+.blog .container .blog-B .blog-B-card .blog-B-card-1 .blog-reciepe {
+  position: absolute;
+  bottom: 7%;
+  left: 1%;
+}
+.blog .container .blog-B .blog-B-card .blog-B-card-1 .blog-reciepe .reciepe-text {
+  background: #ff6600;
+  color: #fff;
+  padding: 5px 22px;
+  border-radius: 35px;
+  font-weight: 700;
+  font-size: 12px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+.blog .container .blog-B .blog-B-card .blog-B-card-1 .blog-reciepe .reciepe-icon {
+  color: white;
+}
+.blog .container .blog-B .blog-B-card .blog-B-card-1 .blog-reciepe .reciepe-icon .fa-clock {
+  margin: 0 2px;
+}
+.blog .container .blog-B .blog-B-card .card-2 {
+  background-image: url("https://khaivinh3005.github.io/RestaurantHomePage/img/banner3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.blog .container .blog-B .blog-B-card .blog-B-card-2 h4 {
+  color: white;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 600;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.blog .container .blog-B .blog-B-card .blog-B-card-2 p {
+  color: white;
+  margin: 20px 0;
+}
+.blog .container .blog-B .blog-B-card .blog-B-card-2 .user {
+  display: flex;
+  justify-content: space-between;
+}
+.blog .container .blog-B .blog-B-card .blog-B-card-2 .user .user-A .A-img img {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.blog .container .blog-B .blog-B-card .blog-B-card-2 .user .user-A .A-text {
+  color: white;
+  margin-left: 10px;
+}
+.blog .container .blog-B .blog-B-card .blog-B-card-2 .user .user-B {
+  display: flex;
+  align-items: center;
+}
+.blog .container .blog-B .blog-B-card .blog-B-card-2 .user .user-B span {
+  color: white;
+}
+
+@media screen and (max-width: 950px) {
+  .blog {
+    padding-top: 300px;
+  }
+  .blog .container .blog-B {
+    grid-template-columns: auto auto;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .blog {
+    padding-top: 600px;
+  }
+  .blog .container .blog-B {
+    grid-template-columns: auto;
+    margin-top: 20px;
+  }
+  .blog .container {
+    max-width: 100%;
+  }
+}
+.people {
+  background-color: black;
+}
+.people .container {
+  text-align: center;
+  padding: 80px 190px;
+}
+.people .container h6 {
+  color: #ff6600;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  display: block;
+  font-family: "Pacifico", cursive;
+}
+.people .container h3 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 550;
+  color: white;
+}
+.people .container img {
+  margin: 30px 0;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.people .container h5 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+  color: white;
+}
+.people .container p {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 300;
+  color: grey;
+  margin: 30px 0;
+}
+.people .container .name {
+  margin: 0;
+  font-weight: 600;
+  font-size: 20px;
+}
+.people .container .customer {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 300;
+  color: grey;
+}
+
+@media screen and (max-width: 768px) {
+  .people .container {
+    padding: 80px 120px;
+  }
+}
+.footer {
+  padding-top: 50px;
+  background-color: #282828 !important;
+}
+.footer .container .footer-A {
+  gap: 80px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.footer .container .footer-A .footer-A-1 h3 {
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+  transition: all 0.5s;
+}
+.footer .container .footer-A .footer-A-1 p {
+  font-size: 17px;
+  color: #a5a2a1;
+  padding: 10px 0;
+}
+.footer .container .footer-A .footer-A-1 .footer-A-1-list li {
+  display: inline-block;
+  margin-top: 10px;
+}
+.footer .container .footer-A .footer-A-1 .footer-A-1-list li i {
+  width: 36px;
+  height: 36px;
+  color: #ff6600;
+  background-color: black;
+  line-height: 36px;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 10px;
+  margin-right: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.footer .container .footer-A .footer-A-2 h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+}
+.footer .container .footer-A .footer-A-2 ul li {
+  font-size: 17px;
+  color: #a5a2a1;
+  transition: all 0.5s;
+  margin-bottom: 10px;
+}
+.footer .container .footer-A .footer-A-3 h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+}
+.footer .container .footer-A .footer-A-3 p {
+  font-size: 17px;
+  color: #a5a2a1;
+  padding: 10px 0;
+}
+.footer .container .footer-A .footer-A-3 form input {
+  background-color: #232220 !important;
+  border: none;
+  padding: 14px 20px;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 10px;
+  border: solid 2px transparent;
+  transition: all 0.5s;
+}
+.footer .container .footer-A .footer-A-3 form button {
+  width: 100%;
+  padding: 14px 45px;
+  background-color: #ff6600;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 10px;
+  border: solid 2px transparent;
+  margin-top: 15px;
+  transition: all 0.5s;
+}
+.footer .container .footer-B {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.footer .container .footer-B p {
+  color: #ddd;
+}
+.footer .container .footer-B p a {
+  color: #ff6600;
+}
+.footer .container .footer-B ul li {
+  display: inline-block;
+  color: #a5a2a1;
+  margin-right: 10px;
+}
+
+.footer .container .footer-A .footer-A-1 h3:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.footer .container .footer-A .footer-A-1 .footer-A-1-list li i:hover {
+  color: red;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 770px) {
+  .footer .container .footer-A {
+    grid-template-columns: auto auto;
+    gap: 28px;
+  }
+  .footer .container .footer-B {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.cd-box {
+  position: fixed;
+  right: 0;
+  top: 7%;
+  height: 350px;
+  width: 90px;
+  background-color: #0d1326;
+  padding: 10px 5px 10px;
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  font-weight: 300;
+}
+.cd-box li {
+  font-size: 25px;
+  cursor: pointer;
+  opacity: 0.5;
+  text-align: center;
+  padding: 0 0 15px;
+}/*# sourceMappingURL=style.css.map */

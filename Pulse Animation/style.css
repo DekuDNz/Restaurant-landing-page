@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+body {
+  background-color: #e5e5fa;
+}
+
+/* animation of button  */
+.pulse {
+  height: 100px;
+  width: 100px;
+  background: white;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  transition: all ease-in-out 0.5;
+
+  color: #ffffff;
+}
+.pulse:before,
+.pulse:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  z-index: 1000;
+  opacity: 0.7;
+}
+.pulse:before {
+  animation: pulse 2s ease-out infinite;
+}
+.pulse:after {
+  animation: pulse 2s 1s ease-out infinite;
+}
+@keyframes pulse {
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+.pluse:hover {
+  background-color: orangered;
+  color: white;
+  transform: scale(1.2);
+}
+
+/* end animation of button  */
+
+/* video 
+ */
+.mfp-hide {
+  display: none !important;
+}
